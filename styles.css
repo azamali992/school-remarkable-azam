@@ -1,0 +1,156 @@
+body{
+  overflow-x: hidden;
+}
+.navbar {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .navbar .navbar-brand {
+    color: #080707;
+    font-weight: bold;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #070404;
+  }
+  
+  .masthead {
+    background-image: url('imgs/header.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .masthead-content {
+    color: #070606;
+    text-align: center;
+  }
+  
+  .masthead-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .masthead-content p {
+    font-size: 1.5rem;
+  }
+  .alpha{
+    color:rgba(115, 207, 22, 0.863)
+  }
+  .bravo{
+    color: brown;
+    font-weight: bolder;
+  }
+  #alpha{
+    color:rgba(115, 207, 22, 0.863)
+  }
+  #box{
+    /* border: 1px solid #070404; */
+    padding :10px;
+    border-radius: 10px;
+  }
+  section.grid{
+    background-color: rgb(205, 217, 205);
+    /* width: 100%; */
+  }
+  #cards{
+    position: relative;
+  }
+  #icons{
+    position: absolute;
+    top: 200px;
+    left:45px
+  }
+  #sect-5-head{
+    padding: 5% 0% 5% 10%
+  }
+  .price1{
+    color:lightgray;
+  }
+  
+  .price2{
+    color:rgb(167, 108, 41);
+  }
+  #cardsrow{
+    padding: 5% 0% 5% 10%
+
+  }
+
+  section.pricing {
+    /* background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF); */
+  }
+  
+  .pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing hr {
+    margin: 1.5rem 0;
+  }
+  
+  .pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+  }
+  
+  .pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .pricing .card-price .period {
+    font-size: 0.8rem;
+  }
+  
+  .pricing ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .pricing .text-muted {
+    opacity: 0.7;
+  }
+  
+  .pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+  }
+  .img-circle {
+    border-radius: 50%;
+  }
+  #section-6col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Hover Effects on Card */
+  
+  @media (min-width: 992px) {
+    .pricing .card:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+  
+    .pricing .card:hover .btn {
+      opacity: 1;
+    }
+  }
